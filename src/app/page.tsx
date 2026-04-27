@@ -68,7 +68,7 @@ export default function Home() {
                 href="/tradecraft-thuto"
                 className="inline-flex items-center justify-center px-7 py-3.5 border border-white/20 hover:border-white/40 text-off-white font-semibold text-[14px] rounded transition-colors duration-150"
               >
-                Explore Tradecraft Thuto
+                Explore TradeCraft Thuto
               </Link>
             </div>
             <p className="mt-14 text-[12px] text-muted/40 tracking-wider">
@@ -197,38 +197,41 @@ export default function Home() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
                 <div>
                   <p className="text-[11px] font-semibold tracking-[0.14em] uppercase text-gold/80 mb-4">
-                    A Harrington Technologies Initiative
+                    A Harrington Technologies Product
                   </p>
                   <h2 className="text-3xl lg:text-4xl font-bold text-off-white leading-tight">
-                    Tradecraft Thuto
+                    TradeCraft Thuto
                   </h2>
                   <div className="w-10 h-0.5 bg-gold/60 mt-5 mb-6" />
                   <p className="text-[15px] text-off-white/70 leading-relaxed">
-                    A training camp for practical digital, business, and technical
-                    skills. Tradecraft Thuto helps learners move from theory to
-                    usable capability — through structured programmes in software
-                    thinking, digital literacy, business readiness, and creative
-                    production.
+                    A full-stack platform connecting South African TVET students
+                    to verified employment. Manages the entire student lifecycle
+                    — from enrolment to career — with AI dropout prediction, live
+                    skills rate tracking, ward-level job matching, NSFAS
+                    compliance, and Moodle migration built in.
                   </p>
                   <p className="mt-4 text-[15px] text-off-white/60 leading-relaxed">
-                    Built for people who need skills that translate directly into
-                    income, employment, or entrepreneurship.
+                    Built for this country&apos;s specific constraints: NQF,
+                    HEMIS, load-shedding, offline mode, ZAR, ward-level data.
+                    Not adapted from a US university platform.
                   </p>
                   <Link
                     href="/tradecraft-thuto"
                     className="inline-flex items-center mt-8 px-6 py-3 border border-gold/40 hover:bg-gold/10 text-gold text-[13px] font-semibold rounded transition-colors duration-150 gap-2"
                   >
-                    Explore the Programme →
+                    Explore the Platform →
                   </Link>
                 </div>
                 <div className="grid grid-cols-2 gap-3">
                   {[
-                    "Digital Literacy",
-                    "Software Thinking",
-                    "Business Readiness",
-                    "Creative Production",
-                    "Learning-to-Earning",
-                    "Technical Foundations",
+                    "AI Dropout Prediction",
+                    "Skills Rate Engine",
+                    "Job Matching",
+                    "Ward-Level Mapping",
+                    "NSFAS Compliance",
+                    "Moodle Migration",
+                    "Offline Mode",
+                    "Employer Portal",
                   ].map((area) => (
                     <div
                       key={area}
