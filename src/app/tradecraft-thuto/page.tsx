@@ -377,9 +377,10 @@ export default function TradecraftThutoPage() {
             Interested in TradeCraft Thuto™?
           </h2>
           <p className="text-[15px] text-off-white/60 max-w-lg mx-auto leading-relaxed mb-10">
-            Whether you are a TVET institution, an employer looking to connect
-            to graduate talent, or an investor — get in touch. We will respond
-            with a straight answer.
+            Whether you are a TVET institution, an employer looking to build a
+            verified talent pipeline, or a partner ready to invest in South
+            Africa&apos;s skills future — speak to us. We will respond with a
+            straight answer.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

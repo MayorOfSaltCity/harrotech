@@ -112,16 +112,17 @@ export default function CaseStudiesPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div>
               <p className="text-[11px] font-semibold tracking-[0.14em] uppercase text-gold mb-4">
-                What&apos;s Next
+                Invest in Your Future
               </p>
               <h3 className="text-xl font-bold text-off-white mb-3">
-                Client work is being taken on now.
+                Strengthen your operations with the right technology.
               </h3>
               <p className="text-[14px] text-muted leading-relaxed">
-                Harrington Technologies™ is open to engagements in software
-                development, business systems, automation, and digital
-                operations. If you have a problem that needs building, get in
-                touch. We&apos;ll be straight with you about what we can deliver.
+                Businesses that invest in well-built software, automation, and
+                digital systems operate faster, scale cleaner, and outpace
+                competitors who rely on manual processes. Harrington
+                Technologies™ delivers that capability — engineered precisely
+                for your requirements.
               </p>
             </div>
             <div className="lg:text-right">
@@ -129,7 +130,7 @@ export default function CaseStudiesPage() {
                 href="/contact"
                 className="inline-flex items-center px-6 py-3 bg-gold hover:bg-gold-light text-navy font-semibold text-[13px] rounded transition-colors"
               >
-                Start a Conversation
+                Invest in Your Operations
               </Link>
             </div>
           </div>
