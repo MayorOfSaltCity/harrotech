@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Tradecraft Thuto",
+  title: "TradeCraft Thuto™",
   description:
-    "TradeCraft Thuto is a full-stack platform connecting South African TVET students to verified employment — from enrolment to career, in one integrated system.",
+    "TradeCraft Thuto™ is a full-stack platform connecting South African TVET students to verified employment — from enrolment to career, in one integrated system.",
 };
 
 const capabilities = [
@@ -90,10 +90,10 @@ export default function TradecraftThutoPage() {
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <p className="text-[11px] font-semibold tracking-[0.14em] uppercase text-gold/80 mb-4">
-            A Harrington Technologies Product
+            A Harrington Technologies™ Product
           </p>
           <h1 className="text-4xl lg:text-[56px] font-bold text-off-white leading-[1.06] tracking-tight max-w-2xl">
-            TradeCraft Thuto
+            TradeCraft Thuto™
           </h1>
           <div className="w-10 h-0.5 bg-gold mt-5 mb-6" />
           <p className="text-[18px] text-off-white/70 max-w-2xl leading-relaxed">
@@ -150,7 +150,7 @@ export default function TradecraftThutoPage() {
                 early-warning system.
               </p>
               <p className="text-[15px] text-muted leading-relaxed">
-                TradeCraft Thuto was built to replace all of that.
+                TradeCraft Thuto™ was built to replace all of that.
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -212,7 +212,7 @@ export default function TradecraftThutoPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
             <div className="space-y-4 text-[15px] text-off-white/65 leading-relaxed">
               <p>
-                At the core of TradeCraft Thuto is a matching engine that pairs
+                At the core of TradeCraft Thuto™ is a matching engine that pairs
                 verified student skill profiles against live employer job
                 listings. Matches are based on mastered skills — competencies a
                 student has demonstrated and had graded in the platform. Not
@@ -411,7 +411,7 @@ export default function TradecraftThutoPage() {
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-2xl lg:text-3xl font-bold text-off-white mb-4">
-            Interested in TradeCraft Thuto?
+            Interested in TradeCraft Thuto™?
           </h2>
           <p className="text-[15px] text-off-white/60 max-w-lg mx-auto leading-relaxed mb-10">
             Whether you are a TVET institution, an employer looking to connect
@@ -429,7 +429,7 @@ export default function TradecraftThutoPage() {
               href="/about"
               className="inline-flex items-center justify-center px-7 py-3.5 border border-white/20 hover:border-white/40 text-off-white font-semibold text-[14px] rounded transition-colors"
             >
-              About Harrington Technologies
+              About Harrington Technologies™
             </Link>
           </div>
         </div>

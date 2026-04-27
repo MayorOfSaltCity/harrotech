@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Harrington Technologies to discuss your software, automation, digital operations, or skills development requirements.",
+    "Get in touch with Harrington Technologies™ to discuss your software, automation, digital operations, or skills development requirements.",
 };
 
 export default function ContactPage() {
@@ -51,18 +51,18 @@ export default function ContactPage() {
                   Location
                 </h3>
                 <p className="text-[13px] text-muted leading-relaxed">
-                  Harrington Technologies is based in South Africa. We work with
+                  Harrington Technologies™ is based in South Africa. We work with
                   clients nationally and remotely where appropriate.
                 </p>
               </div>
               <div className="p-6 bg-surface border border-white/[0.06] rounded-xl">
                 <h3 className="text-[14px] font-semibold text-gold mb-2">
-                  Tradecraft Thuto
+                  TradeCraft Thuto™
                 </h3>
                 <p className="text-[13px] text-muted leading-relaxed">
-                  For Tradecraft Thuto enquiries — individual enrolment or
+                  For TradeCraft Thuto™ enquiries — individual enrolment or
                   organisational partnerships — use the form and select
-                  Tradecraft Thuto as the area of interest.
+                  TradeCraft Thuto™ as the area of interest.
                 </p>
               </div>
               <div className="p-6 bg-surface border border-white/[0.06] rounded-xl">

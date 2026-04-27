@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Harrington Technologies offers custom software development, business systems design, AI-assisted development, automation, digital operations consulting, platform architecture, and training.",
+    "Harrington Technologies™ offers custom software development, business systems design, AI-assisted development, automation, digital operations consulting, platform architecture, and training.",
 };
 
 const services = [
@@ -90,13 +90,13 @@ const services = [
     number: "07",
     title: "Training & Skills Development",
     summary: "Building capability in your team or community",
-    desc: "Through Tradecraft Thuto and direct client engagements, we run training programmes that develop practical technical and operational skills. We also help organisations build internal training capacity and documentation.",
+    desc: "Through TradeCraft Thuto™ and direct client engagements, we run training programmes that develop practical technical and operational skills. We also help organisations build internal training capacity and documentation.",
     deliverables: [
       "Technical training delivery",
       "Curriculum development",
       "Internal knowledge transfer",
       "Documentation programmes",
-      "Tradecraft Thuto integration",
+      "TradeCraft Thuto™ integration",
     ],
   },
 ];
@@ -117,7 +117,7 @@ export default function ServicesPage() {
             Services
           </p>
           <h1 className="text-4xl lg:text-5xl font-bold text-off-white leading-tight max-w-2xl">
-            What Harrington Technologies builds and delivers.
+            What Harrington Technologies™ builds and delivers.
           </h1>
           <div className="w-10 h-0.5 bg-gold mt-6 mb-6" />
           <p className="text-[16px] text-muted max-w-xl leading-relaxed">

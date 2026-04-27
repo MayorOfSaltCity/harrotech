@@ -44,7 +44,7 @@ export async function POST(req: Request) {
     <div style="font-family:sans-serif;max-width:600px;margin:0 auto;color:#1a1a2e">
       <div style="background:#0B1729;padding:24px 32px;border-radius:8px 8px 0 0">
         <p style="color:#C9A84C;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;margin:0 0 8px">New Enquiry</p>
-        <h1 style="color:#F0EDE4;font-size:22px;margin:0">Harrington Technologies</h1>
+        <h1 style="color:#F0EDE4;font-size:22px;margin:0">Harrington Technologies™</h1>
       </div>
       <div style="background:#f9f7f3;padding:32px;border-radius:0 0 8px 8px;border:1px solid #e5e0d8">
         <table style="width:100%;border-collapse:collapse">
@@ -58,7 +58,7 @@ export async function POST(req: Request) {
         <p style="font-size:14px;line-height:1.7;white-space:pre-wrap;margin:0">${safeMessage}</p>
       </div>
       <p style="font-size:11px;color:#aaa;padding:16px 0;text-align:center">
-        Sent from the Harrington Technologies contact form. Reply directly to respond to ${safeName}.
+        Sent from the Harrington Technologies™ contact form. Reply directly to respond to ${safeName}.
       </p>
     </div>
   `;

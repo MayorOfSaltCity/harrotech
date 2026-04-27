@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { label: "About", href: "/about" },
   { label: "Services", href: "/services" },
-  { label: "Tradecraft Thuto", href: "/tradecraft-thuto" },
+  { label: "TradeCraft Thuto™", href: "/tradecraft-thuto" },
   { label: "Our Work", href: "/case-studies" },
   { label: "Contact", href: "/contact" },
 ];

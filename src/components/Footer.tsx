@@ -2,13 +2,13 @@ import Link from "next/link";
 
 const links = {
   Company: [
-    { label: "About Harrington Technologies", href: "/about" },
+    { label: "About Harrington Technologies™", href: "/about" },
     { label: "Services", href: "/services" },
     { label: "Our Work", href: "/case-studies" },
     { label: "Contact", href: "/contact" },
   ],
   Initiatives: [
-    { label: "Tradecraft Thuto", href: "/tradecraft-thuto" },
+    { label: "TradeCraft Thuto™", href: "/tradecraft-thuto" },
   ],
 };
 
@@ -56,10 +56,10 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <p className="text-[12px] text-muted/50">
-            &copy; {new Date().getFullYear()} Harrington Technologies. All rights reserved.
+            &copy; {new Date().getFullYear()} Harrington Technologies™. All rights reserved.
           </p>
           <p className="text-[12px] text-muted/30">
-            Tradecraft Thuto is a Harrington Technologies initiative.
+            TradeCraft Thuto™ is a Harrington Technologies™ initiative.
           </p>
         </div>
       </div>

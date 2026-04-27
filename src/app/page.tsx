@@ -45,7 +45,7 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-36">
           <div className="max-w-3xl">
             <p className="text-[11px] font-semibold tracking-[0.14em] uppercase text-gold mb-6">
-              Harrington Technologies
+              Harrington Technologies™
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-[60px] font-bold text-off-white leading-[1.08] tracking-tight">
               Technology Built for
@@ -53,7 +53,7 @@ export default function Home() {
               <span className="text-gold">Real-World Execution</span>
             </h1>
             <p className="mt-6 text-[17px] text-muted leading-relaxed max-w-xl">
-              Harrington Technologies designs software, digital systems, automation workflows,
+              Harrington Technologies™ designs software, digital systems, automation workflows,
               and practical training programmes that help people and businesses
               operate with more skill, speed, and control.
             </p>
@@ -62,13 +62,13 @@ export default function Home() {
                 href="/contact"
                 className="inline-flex items-center justify-center px-7 py-3.5 bg-gold hover:bg-gold-light text-navy font-semibold text-[14px] rounded transition-colors duration-150"
               >
-                Work With Harrington Technologies
+                Work With Harrington Technologies™
               </Link>
               <Link
                 href="/tradecraft-thuto"
                 className="inline-flex items-center justify-center px-7 py-3.5 border border-white/20 hover:border-white/40 text-off-white font-semibold text-[14px] rounded transition-colors duration-150"
               >
-                Explore TradeCraft Thuto
+                Explore TradeCraft Thuto™
               </Link>
             </div>
             <p className="mt-14 text-[12px] text-muted/40 tracking-wider">
@@ -93,7 +93,7 @@ export default function Home() {
               </h2>
               <div className="w-10 h-0.5 bg-gold mt-5 mb-6" />
               <p className="text-[15px] text-muted leading-relaxed mb-4">
-                Harrington Technologies is a technology company focused on building systems
+                Harrington Technologies™ is a technology company focused on building systems
                 that work in the real world. We don&apos;t build things to look
                 impressive in presentations. We build things that run businesses,
                 reduce friction, and create measurable capability for the people
@@ -109,7 +109,7 @@ export default function Home() {
                 href="/about"
                 className="inline-flex items-center mt-8 text-[13px] font-medium text-gold hover:text-gold-light transition-colors gap-2"
               >
-                About Harrington Technologies <span aria-hidden>→</span>
+                About Harrington Technologies™ <span aria-hidden>→</span>
               </Link>
             </div>
             <div className="space-y-3">
@@ -183,7 +183,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Tradecraft Thuto Feature */}
+      {/* TradeCraft Thuto™ Feature */}
       <section className="bg-charcoal py-20 lg:py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div
@@ -197,10 +197,10 @@ export default function Home() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
                 <div>
                   <p className="text-[11px] font-semibold tracking-[0.14em] uppercase text-gold/80 mb-4">
-                    A Harrington Technologies Product
+                    A Harrington Technologies™ Product
                   </p>
                   <h2 className="text-3xl lg:text-4xl font-bold text-off-white leading-tight">
-                    TradeCraft Thuto
+                    TradeCraft Thuto™
                   </h2>
                   <div className="w-10 h-0.5 bg-gold/60 mt-5 mb-6" />
                   <p className="text-[15px] text-off-white/70 leading-relaxed">

@@ -10,7 +10,7 @@ const serviceOptions = [
   "Digital Operations Consulting",
   "Platform Architecture",
   "Training & Skills Development",
-  "Tradecraft Thuto",
+  "TradeCraft Thuto™",
   "Other",
 ];
 

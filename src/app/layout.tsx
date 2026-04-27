@@ -16,26 +16,26 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Harrington Technologies — Technology Built for Real-World Execution",
-    template: "%s | Harrington Technologies",
+    default: "Harrington Technologies™ — Technology Built for Real-World Execution",
+    template: "%s | Harrington Technologies™",
   },
   description:
-    "Harrington Technologies designs software, digital systems, automation workflows, and practical training programmes that help people and businesses operate with more skill, speed, and control.",
+    "Harrington Technologies™ designs software, digital systems, automation workflows, and practical training programmes that help people and businesses operate with more skill, speed, and control.",
   keywords: [
-    "Harrington Technologies",
+    "Harrington Technologies™",
     "software development",
     "business systems",
     "automation",
     "AI development",
     "digital operations",
-    "Tradecraft Thuto",
+    "TradeCraft Thuto™",
     "skills development",
     "South Africa",
   ],
   openGraph: {
     type: "website",
     locale: "en_ZA",
-    siteName: "Harrington Technologies",
+    siteName: "Harrington Technologies™",
   },
 };
 

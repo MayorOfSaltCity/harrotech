@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Harrington Technologies is a technology company focused on building practical systems for real-world business problems. Software, automation, digital operations, and skills development.",
+    "Harrington Technologies™ is a technology company focused on building practical systems for real-world business problems. Software, automation, digital operations, and skills development.",
 };
 
 const principles = [
@@ -47,7 +47,7 @@ export default function AboutPage() {
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <p className="text-[11px] font-semibold tracking-[0.14em] uppercase text-gold mb-4">
-            About Harrington Technologies
+            About Harrington Technologies™
           </p>
           <h1 className="text-4xl lg:text-5xl font-bold text-off-white leading-tight max-w-xl">
             A technology company built on practical execution.
@@ -65,7 +65,7 @@ export default function AboutPage() {
                 What We Are
               </p>
               <h2 className="text-2xl lg:text-3xl font-bold text-off-white mb-6 leading-tight">
-                Harrington Technologies combines software engineering, automation, and skills
+                Harrington Technologies™ combines software engineering, automation, and skills
                 development into a single execution-focused practice.
               </h2>
               <p className="text-[15px] text-muted leading-relaxed mb-4">
@@ -81,7 +81,7 @@ export default function AboutPage() {
                 results.
               </p>
               <p className="text-[15px] text-muted leading-relaxed">
-                Harrington Technologies is based in South Africa. Our clients range from
+                Harrington Technologies™ is based in South Africa. Our clients range from
                 early-stage startups to established businesses that need to
                 modernise their operations or build new digital capability.
               </p>
@@ -98,7 +98,7 @@ export default function AboutPage() {
                 },
                 {
                   title: "Skills Development",
-                  desc: "Through Tradecraft Thuto, we run practical training programmes that develop digital, technical, and business skills for real-world use.",
+                  desc: "Through TradeCraft Thuto™, we run practical training programmes that develop digital, technical, and business skills for real-world use.",
                 },
               ].map((item) => (
                 <div
@@ -235,12 +235,12 @@ export default function AboutPage() {
             Brand Architecture
           </p>
           <h2 className="text-2xl lg:text-3xl font-bold text-off-white mb-12">
-            Harrington Technologies is the umbrella. Tradecraft Thuto is one initiative.
+            Harrington Technologies™ is the umbrella. TradeCraft Thuto™ is one initiative.
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <div className="p-8 bg-surface-2 border border-white/[0.06] rounded-2xl">
               <p className="text-[11px] font-semibold tracking-[0.14em] uppercase text-gold mb-4">
-                Harrington Technologies
+                Harrington Technologies™
               </p>
               <h3 className="text-xl font-bold text-off-white mb-3">
                 The Technology Company
@@ -249,7 +249,7 @@ export default function AboutPage() {
                 The main brand. Covers software development, business systems,
                 automation, AI-assisted development, digital operations
                 consulting, platform architecture, and technical strategy.
-                Harrington Technologies works with businesses that need technology systems
+                Harrington Technologies™ works with businesses that need technology systems
                 built and operational.
               </p>
             </div>
@@ -260,17 +260,17 @@ export default function AboutPage() {
               }}
             >
               <p className="text-[11px] font-semibold tracking-[0.14em] uppercase text-gold/80 mb-4">
-                Tradecraft Thuto
+                TradeCraft Thuto™
               </p>
               <h3 className="text-xl font-bold text-off-white mb-3">
                 The Training Camp
               </h3>
               <p className="text-[14px] text-off-white/60 leading-relaxed">
-                A Harrington Technologies initiative focused on practical skills transfer.
-                Tradecraft Thuto runs structured training programmes in digital
+                A Harrington Technologies™ initiative focused on practical skills transfer.
+                TradeCraft Thuto™ runs structured training programmes in digital
                 literacy, software thinking, business readiness, creative
                 production, and learning-to-earning pathways. It sits under
-                Harrington Technologies but operates with its own identity and programme
+                Harrington Technologies™ but operates with its own identity and programme
                 structure.
               </p>
               <Link
@@ -282,7 +282,7 @@ export default function AboutPage() {
             </div>
           </div>
           <p className="mt-6 text-[13px] text-muted/50 italic">
-            Additional Harrington Technologies initiatives may be launched under the same
+            Additional Harrington Technologies™ initiatives may be launched under the same
             umbrella over time.
           </p>
         </div>
