@@ -93,7 +93,9 @@ export default function CaseStudiesPage() {
 
               <div className="mt-8">
                 <Link
-                  href="/tradecraft-thuto"
+                  href="https://2686-102-182-100-140.ngrok-free.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center px-6 py-3 border border-gold/40 hover:bg-gold/10 text-gold text-[13px] font-semibold rounded transition-colors gap-2"
                 >
                   See the full programme →

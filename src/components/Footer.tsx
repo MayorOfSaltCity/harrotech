@@ -8,7 +8,7 @@ const links = {
     { label: "Contact", href: "/contact" },
   ],
   Initiatives: [
-    { label: "TradeCraft Thuto™", href: "/tradecraft-thuto" },
+    { label: "TradeCraft Thuto™", href: "https://2686-102-182-100-140.ngrok-free.app/", target: "_blank", rel: "noopener noreferrer" },
   ],
 };
 
@@ -43,6 +43,8 @@ export default function Footer() {
                   <li key={item.href}>
                     <Link
                       href={item.href}
+                      target={(item as { target?: string }).target}
+                      rel={(item as { rel?: string }).rel}
                       className="text-[13px] text-muted hover:text-off-white transition-colors"
                     >
                       {item.label}

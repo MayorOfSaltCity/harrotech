@@ -65,7 +65,9 @@ export default function Home() {
                 Work With Harrington Technologies™
               </Link>
               <Link
-                href="/tradecraft-thuto"
+                href="https://2686-102-182-100-140.ngrok-free.app/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-7 py-3.5 border border-white/20 hover:border-white/40 text-off-white font-semibold text-[14px] rounded transition-colors duration-150"
               >
                 Explore TradeCraft Thuto™
@@ -216,7 +218,9 @@ export default function Home() {
                     Not adapted from a US university platform.
                   </p>
                   <Link
-                    href="/tradecraft-thuto"
+                    href="https://2686-102-182-100-140.ngrok-free.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center mt-8 px-6 py-3 border border-gold/40 hover:bg-gold/10 text-gold text-[13px] font-semibold rounded transition-colors duration-150 gap-2"
                   >
                     Explore the Platform →

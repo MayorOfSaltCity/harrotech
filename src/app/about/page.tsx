@@ -274,7 +274,9 @@ export default function AboutPage() {
                 structure.
               </p>
               <Link
-                href="/tradecraft-thuto"
+                href="https://2686-102-182-100-140.ngrok-free.app/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center mt-5 text-[13px] font-medium text-gold hover:text-gold-light transition-colors gap-1"
               >
                 Learn more →

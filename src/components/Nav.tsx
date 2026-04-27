@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { label: "About", href: "/about" },
   { label: "Services", href: "/services" },
-  { label: "TradeCraft Thuto™", href: "/tradecraft-thuto" },
+  { label: "TradeCraft Thuto™", href: "https://2686-102-182-100-140.ngrok-free.app/", target: "_blank", rel: "noopener noreferrer" },
   { label: "Our Work", href: "/case-studies" },
   { label: "Contact", href: "/contact" },
 ];
@@ -45,17 +45,19 @@ export default function Nav() {
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-8">
-            {navLinks.map((link) => (
+            {navLinks.map(({ label, href, target, rel }) => (
               <Link
-                key={link.href}
-                href={link.href}
+                key={href}
+                href={href}
+                target={target}
+                rel={rel}
                 className={`text-[13px] font-medium tracking-wide transition-colors duration-150 ${
-                  pathname?.startsWith(link.href)
+                  !target && pathname?.startsWith(href)
                     ? "text-gold"
                     : "text-muted hover:text-off-white"
                 }`}
               >
-                {link.label}
+                {label}
               </Link>
             ))}
           </nav>
@@ -100,17 +102,19 @@ export default function Nav() {
       {open && (
         <div className="lg:hidden bg-navy/98 backdrop-blur-md border-t border-white/10">
           <nav className="max-w-7xl mx-auto px-6 py-5 flex flex-col gap-1">
-            {navLinks.map((link) => (
+            {navLinks.map(({ label, href, target, rel }) => (
               <Link
-                key={link.href}
-                href={link.href}
+                key={href}
+                href={href}
+                target={target}
+                rel={rel}
                 className={`py-2.5 text-[15px] font-medium transition-colors ${
-                  pathname?.startsWith(link.href)
+                  !target && pathname?.startsWith(href)
                     ? "text-gold"
                     : "text-off-white"
                 }`}
               >
-                {link.label}
+                {label}
               </Link>
             ))}
             <Link
