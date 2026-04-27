@@ -4,76 +4,76 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "TradeCraft Thuto™",
   description:
-    "TradeCraft Thuto™ is a full-stack platform connecting South African TVET students to verified employment — from enrolment to career, in one integrated system.",
+    "TradeCraft Thuto™ connects South African TVET students to meaningful employment. From first day to first job — in one place.",
 };
 
 const capabilities = [
   {
     number: "01",
-    title: "Employment Matching Engine",
-    desc: "Pairs verified student skill profiles against live employer listings. Matches are based on demonstrated, graded competencies — not self-reported CVs. Every match carries a feasibility score including commute distance, affordability, and geographic practicality down to ward level.",
+    title: "Employment Matching",
+    desc: "Students get connected to real opportunities based on what they have actually learned. Employers get candidates who are actually ready. Both sides get something the old way never delivered.",
   },
   {
     number: "02",
-    title: "Live Skills Rate Engine",
-    desc: "Aggregates skill valuations from employer offers, contributor estimates, AI aggregations, and market searches. Students see current min/avg/max ZAR per hour per skill — before they finish the qualification. Employers register formal skills shortage notices by industry, province, and urgency.",
+    title: "Skills Market Insight",
+    desc: "The platform gives students a clear picture of where their skills sit in the real market — so they understand their own value before they graduate. Institutions and employers see where the gaps are.",
   },
   {
     number: "03",
-    title: "AI Dropout Prediction",
-    desc: "Flags at-risk students six weeks before they disengage — 87% detection rate. The system calculates a composite risk score from attendance, grades, submission rate, and engagement, giving coordinators time to actually intervene. Every rand spent on intervention saves fourteen in lost NSFAS allocation.",
+    title: "Early Intervention",
+    desc: "The platform identifies students who are heading toward a bad outcome — early enough to do something about it. Coordinators get the signal before the student has already left.",
   },
   {
     number: "04",
-    title: "National Skills Map",
-    desc: "A live geographic view of South Africa's skills landscape. Student skill concentration and employer job demand are plotted simultaneously at ward level on an interactive national map. A policy instrument, not decoration.",
+    title: "National Skills Intelligence",
+    desc: "A live view of where skills are concentrated and where demand is growing across South Africa. Useful for institutions planning programmes, and for the people who fund them.",
   },
   {
     number: "05",
-    title: "NSFAS & HEMIS Compliance",
-    desc: "NQF-aligned grading for NCV and NATED qualifications. Automated DHET code assignment. HEMIS submission readiness without manual re-entry. NSFAS payment reconciliation with a full audit trail. POPIA-compliant from first use.",
+    title: "Compliance & Reporting",
+    desc: "Built around South Africa's regulatory requirements from the ground up. Institutions stay compliant without the manual overhead that currently consumes their administrative capacity.",
   },
   {
     number: "06",
-    title: "Moodle Migration Engine",
-    desc: "Imports ten years of existing course content, user records, and historical data from Moodle overnight. No re-enrolment. No data loss. No disruption to the academic calendar.",
+    title: "Seamless Transition",
+    desc: "Institutions do not have to start over. Existing content, student records, and historical data come across. The academic calendar keeps moving.",
   },
   {
     number: "07",
-    title: "Load-Shedding Resilience",
-    desc: "Fully functional offline mode. USSD access for students on feature phones. Deadline management is Eskom schedule-aware — students are never penalised for a power outage.",
+    title: "Built for Local Conditions",
+    desc: "South Africa has infrastructure challenges that no overseas platform was designed for. TradeCraft Thuto™ was built with those realities as a starting point, not an afterthought.",
   },
   {
     number: "08",
-    title: "Employer Upskilling Sponsorship",
-    desc: "Employers fund specific courses, skills, or qualification modules for their own staff directly through the platform — and track spend and outcomes in a single dashboard.",
+    title: "Employer Partnership",
+    desc: "Employers are not just recipients of graduates. They can invest in the skills they need, track outcomes, and build pipelines that actually deliver the talent they have been unable to find.",
   },
 ];
 
 const stakeholders = [
   {
     role: "Students",
-    desc: "Unified portal for assignments, grades, materials, messaging, career path tracking, matched job listings, commute feasibility, and a gamified learning layer that keeps engagement high.",
+    desc: "Everything a student needs to study, track their progress, understand their options, and take their next step — in one place, without needing to chase anyone.",
   },
   {
     role: "Lecturers",
-    desc: "Live grade book, assignment management, class analytics, AI question suggestions, and early warning flags on students who need attention — before they have already disengaged.",
+    desc: "The tools to teach well and see clearly. Lecturers know how their students are doing and which ones need attention — without spending half the week generating reports.",
   },
   {
     role: "Institutions",
-    desc: "System-wide analytics, HEMIS-ready compliance reporting, NSFAS reconciliation, real-time at-risk dashboards, and ward-level relocation exception reports.",
+    desc: "Real visibility into what is happening across the institution, with the compliance and reporting obligations handled so leadership can focus on outcomes.",
   },
   {
     role: "Employers",
-    desc: "Verified graduate profiles with skill ratings and academic records. Post jobs, run internship placements, submit evaluations, send psychometric assessments, and sponsor employee upskilling.",
+    desc: "Access to graduates who are ready, with records to back it up. And the ability to invest in the pipeline so the talent they need actually exists.",
   },
   {
     role: "Parents",
-    desc: "Read-only portal to follow academic progress and receive notifications when something needs attention.",
+    desc: "A clear window into how their child is progressing, without needing to make phone calls or wait for a report that may or may not arrive.",
   },
   {
     role: "Mentors",
-    desc: "Manage student placements, track internship progress, and coordinate with institutions and employers through structured assignment workflows.",
+    desc: "The structure to support students through their placements and transitions — with all the relevant people connected and informed.",
   },
 ];
 
@@ -101,11 +101,10 @@ export default function TradecraftThutoPage() {
             South Africa.
           </p>
           <p className="mt-5 text-[15px] text-off-white/50 max-w-xl leading-relaxed">
-            A full-stack platform for South African technical and vocational
-            education. It manages the entire lifecycle of a student — from
-            enrolment through to verified employment — while giving
-            institutions, employers, and the labour market real data about where
-            skills are, where jobs are, and where the two fail to meet.
+            Built for South Africa&apos;s technical and vocational colleges.
+            TradeCraft Thuto™ walks with students from enrolment to employment
+            — and gives institutions, employers, and the people making policy
+            the visibility they have never had.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
             <Link
@@ -143,14 +142,13 @@ export default function TradecraftThutoPage() {
               </p>
               <p className="text-[15px] text-muted leading-relaxed mb-4">
                 NSFAS funds approximately 900,000 students annually across TVET
-                colleges and universities. The institutions receiving those
-                funds operate on Moodle installs, spreadsheets, and manual
-                paper-based processes. No AI. No integrated payment
-                reconciliation. No automated compliance reporting. No
-                early-warning system.
+                colleges and universities. The institutions receiving those funds
+                are doing their best with tools that were never built for this
+                problem. The students paying the price for that are real people
+                with real futures on the line.
               </p>
               <p className="text-[15px] text-muted leading-relaxed">
-                TradeCraft Thuto™ was built to replace all of that.
+                TradeCraft Thuto™ was built to change that.
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -203,46 +201,41 @@ export default function TradecraftThutoPage() {
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <p className="text-[11px] font-semibold tracking-[0.14em] uppercase text-gold/80 mb-4">
-            Core Architecture
+            How It Works
           </p>
           <h2 className="text-2xl lg:text-3xl font-bold text-off-white mb-4 leading-tight max-w-2xl">
-            The employment layer is structural — not an add-on.
+            Employment isn&apos;t a feature. It&apos;s the whole point.
           </h2>
           <div className="w-10 h-0.5 bg-gold/60 mb-8" />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
             <div className="space-y-4 text-[15px] text-off-white/65 leading-relaxed">
               <p>
-                At the core of TradeCraft Thuto™ is a matching engine that pairs
-                verified student skill profiles against live employer job
-                listings. Matches are based on mastered skills — competencies a
-                student has demonstrated and had graded in the platform. Not
-                self-reported CVs. Not keyword searches.
+                TradeCraft Thuto™ connects what a student has actually learned
+                to what an employer actually needs. Not what a student claims on
+                a CV. Not a keyword match. A real connection, grounded in what
+                was studied, assessed, and verified.
               </p>
               <p>
-                Each match carries a feasibility score: actual distance between
-                the student&apos;s ward and the job site, estimated commute
-                time, and affordability. Administrators see ward-level exception
-                reports that distinguish between a student who needs a bus pass
-                and a student who needs a relocation support package.
+                The platform understands that a job offer is not useful if the
+                student cannot get there. Practicality is part of every
+                connection it makes — and institutions see exactly where the
+                gaps are and what it would take to close them.
               </p>
               <p>
-                The skills rate engine aggregates live valuations from four
-                sources — employer offers, contributor estimates, AI
-                aggregations, and market data — so students can see the current
-                ZAR per hour value of every skill they are learning, before they
-                finish the qualification.
+                Students know the value of what they are learning — in rand
+                terms, in the real market — before they finish the
+                qualification. That changes how they show up.
               </p>
             </div>
             <div className="space-y-3">
               {[
-                "Skill-verified matching — no CV keyword guessing",
-                "Ward-level commute feasibility scoring per match",
-                "Live ZAR per hour rates per skill and vocation",
-                "Employer skills shortage notices by industry and province",
-                "AI gap analysis: student population vs. market demand",
-                "Geographic skills map at national and ward level",
-                "Relocation planning dashboard for administrators",
-                "Verified digital skills passport on graduation",
+                "Connections built on demonstrated ability, not self-reported skills",
+                "Practical, real-world feasibility built into every opportunity",
+                "Live market context so students understand their own value",
+                "Visibility into where industry demand is concentrated",
+                "A national view of where skills and jobs align — and where they don't",
+                "Planning tools that make the path from study to work navigable",
+                "A verified record of achievement that travels with the graduate",
               ].map((point) => (
                 <div
                   key={point}
@@ -332,29 +325,29 @@ export default function TradecraftThutoPage() {
                 Not adapted. Built from scratch for South Africa.
               </h2>
               <p className="text-[15px] text-muted leading-relaxed mb-4">
-                Ward-level data. ZAR. NSFAS. NQF. Load-shedding resilience.
-                Offline mode. USSD access. POPIA-compliant from day one.
+                The regulatory landscape. The funding structures. The
+                infrastructure. The language. The geography. None of it was an
+                afterthought — it was the starting point.
               </p>
               <p className="text-[15px] text-muted leading-relaxed">
-                Every design decision reflects the South African context — not
-                as a localisation afterthought, but as the founding requirement.
-                The platform is engineered for deployment on South African cloud
-                infrastructure and built to scale from a single pilot
-                institution to the national TVET estate.
+                The platform is built to work in this country as it actually
+                is — not as a global vendor imagines it to be — and to grow
+                from a single institution to the full national TVET estate
+                without changing shape.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-3">
               {[
-                "NQF-aligned grading",
-                "HEMIS reporting",
-                "NSFAS reconciliation",
-                "POPIA compliance",
-                "Offline mode",
-                "USSD access",
-                "Eskom-aware deadlines",
-                "af-south-1 deployment",
-                "Moodle migration",
-                "Ward-level mapping",
+                "Regulatory compliance",
+                "Funding reconciliation",
+                "Qualification alignment",
+                "Data sovereignty",
+                "Works without connectivity",
+                "Accessible on any device",
+                "Infrastructure-aware",
+                "Local cloud deployment",
+                "Existing data preserved",
+                "Geographic intelligence",
               ].map((item) => (
                 <div
                   key={item}
@@ -370,37 +363,7 @@ export default function TradecraftThutoPage() {
         </div>
       </section>
 
-      {/* Tech */}
-      <section className="bg-charcoal py-16 border-t border-white/5">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <p className="text-[11px] font-semibold tracking-[0.14em] uppercase text-gold mb-6">
-            Architecture
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {[
-              "Next.js 14",
-              "TypeScript",
-              "Express API Gateway",
-              "Microservices",
-              "PostgreSQL",
-              "pgvector",
-              "Redis",
-              "Socket.IO",
-              "AWS af-south-1",
-              "Prisma ORM",
-              "AI/ML Pipeline",
-              "MinIO / S3",
-            ].map((tech) => (
-              <span
-                key={tech}
-                className="px-3 py-1.5 bg-surface border border-white/[0.06] text-[12px] text-muted/80 rounded font-mono"
-              >
-                {tech}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* CTA */}
       <section
