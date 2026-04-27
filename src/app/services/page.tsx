@@ -214,7 +214,7 @@ export default function ServicesPage() {
             href="/contact"
             className="inline-flex items-center px-6 py-3 bg-gold hover:bg-gold-light text-navy font-semibold text-[13px] rounded transition-colors"
           >
-            Discuss Your Requirements →
+            Invest in Your Operations →
           </Link>
         </div>
       </section>

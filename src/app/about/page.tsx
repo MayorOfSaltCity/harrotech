@@ -320,17 +320,17 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
           <div>
             <h3 className="text-xl font-bold text-off-white mb-1">
-              Want to work with us?
+              Invest in your business&apos;s future.
             </h3>
             <p className="text-[14px] text-muted">
-              Tell us what you&apos;re trying to build or fix.
+              The right systems compound — they pay back more than they cost.
             </p>
           </div>
           <Link
             href="/contact"
             className="flex-shrink-0 inline-flex items-center px-6 py-3 bg-gold hover:bg-gold-light text-navy font-semibold text-[13px] rounded transition-colors"
           >
-            Get in Touch
+            Explore What We Build
           </Link>
         </div>
       </section>

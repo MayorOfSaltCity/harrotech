@@ -255,20 +255,21 @@ export default function Home() {
       <section className="bg-navy py-20 lg:py-24 border-t border-white/5">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
           <p className="text-[11px] font-semibold tracking-[0.14em] uppercase text-gold mb-4">
-            Get Started
+            Invest in Your Operations
           </p>
           <h2 className="text-3xl lg:text-4xl font-bold text-off-white mb-6">
-            Ready to work together?
+            Build the advantage your competitors don&apos;t have.
           </h2>
           <p className="text-[16px] text-muted max-w-md mx-auto leading-relaxed mb-10">
-            Tell us what you&apos;re building, what&apos;s broken, or what you want to
-            move faster. We&apos;ll respond with a straight answer.
+            The right technology investment pays for itself in speed, reduced
+            overhead, and capability that compounds over time. Tell us where
+            you want to lead.
           </p>
           <Link
             href="/contact"
             className="inline-flex items-center px-8 py-4 bg-gold hover:bg-gold-light text-navy font-semibold text-[14px] rounded transition-colors duration-150"
           >
-            Start the Conversation
+            Start Building Your Advantage
           </Link>
         </div>
       </section>
